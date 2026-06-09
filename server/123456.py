@@ -457,21 +457,21 @@ def generate_shakemap_static(node_data, epicenter_lat, epicenter_lng):
 RECEIVE_MQTT_BROKER = "w8381dbc.ala.cn-hangzhou.emqxsl.cn"
 RECEIVE_MQTT_PORT = 8883
 RECEIVE_MQTT_TOPIC = "earthquake/data"
-RECEIVE_MQTT_USERNAME = "User"
-RECEIVE_MQTT_PASSWORD = "1234567890"
-RECEIVE_MQTT_CA_CERT = "C:/Users/L1370/Desktop/main/emqxsl-ca.crt"
+RECEIVE_MQTT_USERNAME = "***"
+RECEIVE_MQTT_PASSWORD = "***"
+RECEIVE_MQTT_CA_CERT = "***"
 
 SEND_MQTT_BROKER = "w8381dbc.ala.cn-hangzhou.emqxsl.cn"
 SEND_MQTT_PORT = 8883
 SEND_MQTT_TOPIC = "earthquake/alert"
-SEND_MQTT_USERNAME = "User"
-SEND_MQTT_PASSWORD = "1234567890"
-SEND_MQTT_CA_CERT = "C:/Users/L1370/Desktop/main/emqxsl-ca.crt"
+SEND_MQTT_USERNAME = "***"
+SEND_MQTT_PASSWORD = "***"
+SEND_MQTT_CA_CERT = "***"
 
 QQ_EMAIL_ENABLE = True
-QQ_EMAIL_SENDER = "3809191404@qq.com"
-QQ_EMAIL_PASSWORD = "xcqtffkzkhsgcdcb"
-QQ_EMAIL_RECEIVER = "2028024910@qq.com"
+QQ_EMAIL_SENDER = "***"
+QQ_EMAIL_PASSWORD = "***"
+QQ_EMAIL_RECEIVER = "***"
 QQ_EMAIL_SMTP_SERVER = "smtp.qq.com"
 QQ_EMAIL_SMTP_PORT = 587
 
