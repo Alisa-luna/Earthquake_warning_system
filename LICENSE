@@ -24,3 +24,4 @@ SOFTWARE.
 
 本项目中包含的以下组件使用其各自的许可证：
 - models/ 目录下的 Edge Impulse 推理模型：详见 models/LICENSE_EdgeImpulse.txt
+- server/ 目录下的 PhaseNet 和 EQTransformer 推理模型: 详见README.md致谢
