@@ -47,23 +47,23 @@ warnings.filterwarnings("ignore", module="daspy")
 # 接收服务器配置 (原服务器)
 RECEIVE_MQTT_BROKER = "192.168.1.100"
 RECEIVE_MQTT_PORT = 8883
-RECEIVE_MQTT_TOPIC = "483FDA58BA79-publish"
-RECEIVE_MQTT_USERNAME = "User"
-RECEIVE_MQTT_PASSWORD = "1234567890"
+RECEIVE_MQTT_TOPIC = "***"
+RECEIVE_MQTT_USERNAME = "***"
+RECEIVE_MQTT_PASSWORD = "***"
 
 
 # 发送服务器配置 (新服务器)
-SEND_MQTT_BROKER = "w8381dbc.ala.cn-hangzhou.emqxsl.cn"  # EMQX 服务器
+SEND_MQTT_BROKER = "***"  # EMQX 服务器
 SEND_MQTT_PORT = 8883
 SEND_MQTT_TOPIC = "earthquake/alert"
-SEND_MQTT_USERNAME = "User"
-SEND_MQTT_PASSWORD = "1234567890"
-SEND_MQTT_CA_CERT = "C:/Users/L1370/Desktop/main/emqxsl-ca.crt"  # EMQX CA证书路径
+SEND_MQTT_USERNAME = "***"
+SEND_MQTT_PASSWORD = "***"
+SEND_MQTT_CA_CERT = "***"  # EMQX CA证书路径
 
 QQ_EMAIL_ENABLE = True
-QQ_EMAIL_SENDER = "3809191404@qq.com"
-QQ_EMAIL_PASSWORD = "xcqtffkzkhsgcdcb"
-QQ_EMAIL_RECEIVER = "2028024910@qq.com"
+QQ_EMAIL_SENDER = "***"
+QQ_EMAIL_PASSWORD = "***"
+QQ_EMAIL_RECEIVER = "***"
 QQ_EMAIL_SMTP_SERVER = "smtp.qq.com"
 QQ_EMAIL_SMTP_PORT = 587
 
