@@ -10,15 +10,15 @@ from collections import deque
 import numpy as np
 
 # ==================== 配置信息 ====================
-MQTT_BROKER = "w8381dbc.ala.cn-hangzhou.emqxsl.cn"
+MQTT_BROKER = "***"
 MQTT_PORT = 8883
-MQTT_TOPIC = "483FDA58BA79-publish"
-MQTT_USERNAME = "User"
-MQTT_PASSWORD = "1234567890"
+MQTT_TOPIC = "***"
+MQTT_USERNAME = "***"
+MQTT_PASSWORD = "***"
 
 # 使用SiliconFlow进行趋势预测
 SILICONFLOW_API_URL = "https://api.siliconflow.cn/v1/chat/completions"
-SILICONFLOW_API_KEY = "sk-kyxwdnmgzmcmcyzxbhtibhjvsgjpiefexuyrjkjgmjubyspv"
+SILICONFLOW_API_KEY = "***"
 SILICONFLOW_MODEL = "Qwen/Qwen3-8B"
 
 LOG_FILE = "sensor_trend_monitor.log"
@@ -290,7 +290,7 @@ def main():
 
     # SSL配置
     try:
-        client.tls_set(ca_certs="C:/Users/L1370/Desktop/main/emqxsl-ca.crt")
+        client.tls_set(ca_certs="***")
         logging.info("SSL证书配置成功")
     except Exception as e:
         logging.error(f"SSL配置失败: {e}")
