@@ -63,3 +63,16 @@
 ## ⚠️ 免责声明
 
 本系统仅供研究和实验目的，不构成正式的地震预警系统。请勿将本系统用于生命财产安全相关的决策。
+
+## 🙏 致谢
+
+### MCU-Quake 模型
+- **论文**：[Real-time discrimination of earthquake signals by integrating AI technology into IoT devices](https://doi.org/10.1038/s43247-025-02003-y)
+- **作者**：Zhi Geng, Yanfei Wang, Wenyong Pan, Caixia Yu, Zhijing Bai, Hongzhou Zhang
+- **发表**：Communications Earth & Environment, 2025
+- **许可证**：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **模型代码**：[ScienceDB](https://doi.org/10.57760/sciencedb.10775)
+
+- **PhaseNet / EQTransformer** - SeisBench 预训练模型
+  - 来源：[SeisBench](https://github.com/seisbench/seisbench)
+  - 许可证：MIT License
